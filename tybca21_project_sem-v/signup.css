@@ -1,0 +1,148 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;    
+}
+html,body
+{
+    height:100%;
+    width:100%;
+}
+.main
+{
+    height:100%;
+    width:100%;
+    position:relative;
+    display:flex;
+    align-items:center;
+    background:white;
+}
+.left
+{
+    height:100%;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background:transparent;
+    font-family:helvetica;
+    box-shadow:2px 0px 25px 4px #f1f1f154;
+    z-index:5;
+    color:#282828;
+}    
+.left form
+{
+    width:80%;
+    
+}
+.left_top
+{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:5%;
+    margin-top:10px;
+}
+.txt1
+{
+    height:40%;
+    width:27.5%;
+    border:none;
+    font-size:1.1vw;
+    padding:0.5vw;
+    background:#88888834;
+    border-bottom:1px solid #181818;
+    outline:none;
+    transition:0.2s;
+    color:#282828;
+}
+
+.left_bottom
+{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.txt2
+{
+    width: 60%;
+    border: none;
+    font-size: 1.1vw;
+    padding: 0.5vw;
+    background: #88888834;
+    border-bottom: 1px solid #181818;
+    outline: none;
+    transition: 0.2s;
+    margin-top:10px;
+    color:#282828;
+}
+
+.txt1:hover, .txt2:hover
+{
+    background:#88888864;
+}
+.txt1:focus, .txt2:focus
+{
+    border-bottom:2px solid #181818;
+    background:#88888864;
+}
+.txt1::placeholder, .txt2::placeholder
+{
+    color:#282828;
+}
+
+.btn1
+{
+    width: 25%;
+    font-size: 1.1vw;
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid #181818;
+    color: #181818;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top:10px;
+}
+.btn1:hover
+{
+    background: #181818;
+    color: white;
+}
+.btn1:active
+{
+    transform: scale(0.9);
+}
+.login_page
+{
+    color:#282828;
+    text-decoration:none;
+    margin-top:10px;
+}
+.right
+{
+    height:100%;
+    width:60%;
+    background:#181818;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+} 
+.logo_holder
+{
+    height:300px;
+    width:400px;
+    background:url("./images/skroll1.png");
+    background-size:cover;
+}
+.forgot_pass
+{
+    margin-left:-35%;
+    margin-top:5px;
+    color:#282828;
+    text-decoration:none;
+    font-size:14px;
+}
