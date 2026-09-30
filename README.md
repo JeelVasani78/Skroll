@@ -195,7 +195,7 @@ Real SMTP passwords, API keys, personal databases, and other credentials should 
 
 ## Project Status
 
-**Completed Academic Project / Portfolio Archive**
+**Completed Academic Project**
 
 The core development of Skroll is complete.
 
